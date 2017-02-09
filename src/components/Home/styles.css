@@ -1,0 +1,133 @@
+.textSection {
+  margin: auto;
+  padding-top: 1em;
+  font-weight: 600;
+}
+
+.intro {
+  font-style: italic;
+  padding: 1em;
+}
+
+.textSection:first-child {
+  margin-top: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+label {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.5em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.code {
+  font-size: 0.75em;
+  background-color: $very-light-grey;
+  padding: 0.125em 0.5em;
+  border-radius: 1px;
+}
+
+.usernameForm {
+  margin-bottom: 1em;
+}
+
+.input {
+  outline: none;
+  border-bottom: 1px dotted #999;
+}
+
+.atPrefix {
+  color: black;
+  margin-left: 0.4em;
+}
+
+.resume {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: start;
+  justify-content: center;
+  padding-bottom: 20px;
+
+}
+
+@media (max-width: 800px) {
+  .resume {
+    flex-direction: column;
+  }
+}
+
+.skills {
+  display: flex;
+  flex-flow: wrap;
+  flex: 1;
+  align-items: start;
+  justify-content: center;
+  border: #000 solid 1px;
+  border-left: none;
+  border-right: none;
+
+}
+
+.skill {
+  list-style: inline;
+  display: inline;
+  padding: 5px;
+}
+
+.timeLine {
+  width: 25%;
+}
+
+.job {
+  width: 75%;
+  font-size: 1.2em;
+  color: #41ADDD;
+}
+
+.employer {
+  display: block;
+  font-size: 0.8em;
+  color: #000;
+  opacity: 0.5;
+}
+
+.tasks {
+  font-size: 0.8em;
+  line-height: 1rem;
+  font-style: italic;
+  padding-left: 10px;
+  color: #000;
+  list-style: disc outside none;
+  display: list-item;
+
+}
+
+@media (max-width: 800px) {
+  .tasks {
+    list-style: none;
+  }
+  .tasks::before {
+    color: black;
+    content: '\2022';
+    padding-right: 0.5em;
+  }
+  .job {
+    width: 100%;
+  }
+  .timeLine {
+    width: 100%;
+  }
+
+}
+
+.inset {
+  margin: 0 2em;
+  display: block;
+}

@@ -1,0 +1,189 @@
+/* Global styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body.fontLoaded {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+:global(#app) {
+  background-color: #FAFAFA;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: calc(768px + 16px * 2);
+  margin: 0 auto;
+  display: flex;
+  min-height: 100%;
+  padding: 0 16px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logoWrapper {
+  min-height: 350px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .logoWrapper {
+    min-height: 200px;
+  }
+}
+
+.logo {
+  border-radius: 50%;
+  height: 150px;
+  border: #FFF solid 3px;
+  margin: auto;
+}
+
+.logoText {
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.h {
+  display: block;
+  color: #FFF;
+  font-size: 2em;
+  line-height: 1em;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  padding-left: 5px;
+
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  flex: 1;
+}
+
+.motto {
+  background-color: #EFECDC;
+  padding: 1.5rem;
+  font-weight: 100;
+  line-height: 1.5em;
+}
+
+.textSection {
+  margin: 3em auto;
+}
+
+.textSection:first-child {
+  margin-top: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.body {
+  font-size: 1.5em;
+}
+
+.contact {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  justify-content: center;
+}
+
+.circle {
+  background: #91C7A9;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  margin: 30%;
+  color: #FFF;
+}
+
+@media (max-width: 680px) {
+  .contact {
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+  }
+  .logo {
+    height: 100px;
+  }
+  .h {
+    font-size: 1.5em;
+  }
+  .circle {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+  }
+  .icon {
+    margin: 20%;
+  }
+}
+
+@media (max-width: 736px) {
+  .banner {
+    flex-direction: column;
+  }
+  .h {
+    text-align: center;
+  }
+  .logoText {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .logo {
+    height: 100px;
+  }
+  .h {
+    font-size: 1.3em;
+    text-align: center;
+  }
+  .circle {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+  }
+  .icon {
+    margin: 20%;
+  }
+}
+
+@media (max-width: 320px) {
+  .motto {
+    font-size: 0.8em;
+  }
+}
+

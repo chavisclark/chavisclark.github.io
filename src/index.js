@@ -5,16 +5,13 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import App from './components/App';
 import Home from './components/Home';
 import PageNotFound from './components/PageNotFound';
-import ExampleComponent from './components/ExampleComponent';
-import ExampleTwoDeepComponent from './components/ExampleTwoDeepComponent';
-
+import Story from './components/Story';
 
 const routes = (
   <Route path="/" mapMenuTitle="Home" component={App}>
     <IndexRoute component={Home} />
 
-    <Route path="example" mapMenuTitle="Example" component={ExampleComponent}>
-      <Route path="two-deep" mapMenuTitle="Two Deep" component={ExampleTwoDeepComponent} />
+    <Route path="story" mapMenuTitle="Story" component={Story}>
     </Route>
 
     <Route path="*" mapMenuTitle="Page Not Found" component={PageNotFound} />

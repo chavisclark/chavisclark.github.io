@@ -1,0 +1,31 @@
+.list {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  padding-left: 1.75em;
+}
+
+.listItem {
+  margin: 1em 0;
+  font-style: italic;
+}
+
+.listItemTitle {
+  font-weight: bold;
+}
+
+.hat {
+  min-width: 250px;
+  min-height: 250px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 680px) {
+  .intro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
