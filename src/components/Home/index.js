@@ -8,9 +8,9 @@ function Home() {
    return (
       <article>
         <Helmet
-          title="Resume/CV"
+          title="Chavis Clark | Digital Nomad"
           meta={[
-            { name: 'description', content: 'A Chavis Clark application homepage' },
+            { name: 'description', content: 'Chavis Clark is a self-taught Web Application Developer who works creatively and passionately. View Chavis Clark\'s comprehensive work history and GitHub projects here.' },
           ]}
         />
         <div className={`${styles.centered} ${styles.intro}`}>
