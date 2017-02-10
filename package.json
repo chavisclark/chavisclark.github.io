@@ -1,16 +1,17 @@
 {
   "name": "spa-github-pages",
   "version": "3.0.0",
-  "description": "Single Page Apps for GitHub Pages",
+  "description": "Chavis Clark's Personal Page",
   "scripts": {
     "start": "webpack-dev-server -d --inline --host 0.0.0.0 --history-api-fallback --progress",
-    "build": "webpack --config webpack.config.babel.js"
+    "build": "webpack --config webpack.config.babel.js",
+    "prod": "npm run build && webpack -p"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafrex/spa-github-pages.git"
+    "url": "git+https://github.com/chavisclark/chavisclark.github.io.git"
   },
-  "author": "Rafael Pedicini <code@rafrex.com>",
+  "author": "Chavis Clark",
   "license": "MIT",
   "dependencies": {
     "react": "^15.4.1",
