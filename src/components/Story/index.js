@@ -18,6 +18,7 @@ function Story({ children }) {
     const divImage = {
       backgroundImage: `url('${Hat}')`,
       backgroundSize: 'contain',
+      backgroundRepeat: 'no-repeat'
     };
     return (
       <div>
