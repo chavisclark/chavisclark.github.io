@@ -128,7 +128,7 @@ function Home() {
           <section className={styles.job}>
             Web Application Developer
             <span className={styles.employer}>
-              Independent
+              Independent (Remote)
             </span>
             <p className={styles.tasks}>
               Improve website performance by reducing expensive JavaScript operations and restructuring CSS modules
