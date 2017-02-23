@@ -48,6 +48,9 @@ function Home() {
           React.js
           </li>
           <li className={styles.skill}>
+          WordPress
+          </li>
+          <li className={styles.skill}>
           HTML5
           </li>
           <li className={styles.skill}>
@@ -92,7 +95,35 @@ function Home() {
         </div>
         <div className={styles.resume}>
           <section className={styles.timeLine}>
-          2015 &mdash;  Present
+          Dec. 2016 &mdash;  Present
+          </section>
+          <section className={styles.job}>
+            Web Developer
+            <span className={styles.employer}>
+              Sustainable Bolivia (Cochabamba, Bolivia)
+            </span>
+            <p className={styles.tasks}>
+              Rebuild multiple websites using custom PHP and JavaScript on WordPress CMS
+            </p>
+          </section>
+        </div>
+        <div className={styles.resume}>
+          <section className={styles.timeLine}>
+          Dec. 2016 &mdash;  Present
+          </section>
+          <section className={styles.job}>
+            Code Mentor
+            <span className={styles.employer}>
+              Thinkful (Remote)
+            </span>
+            <p className={styles.tasks}>
+              Teach and explain computer programming concepts to aspiring web developers 
+            </p>
+          </section>
+        </div>
+        <div className={styles.resume}>
+          <section className={styles.timeLine}>
+          Jul. 2015 &mdash;  Present
           </section>
           <section className={styles.job}>
             Web Application Developer
@@ -184,7 +215,7 @@ function Home() {
               Playpro Media (Kennesaw, GA)
             </span>
             <p className={styles.tasks}>
-              Maintain Wordpress CMS and develop new custom JavaScript elements for front-end
+              Maintain WordPress CMS and develop new custom JavaScript elements for front-end
             </p>
             <p className={styles.tasks}>
               Design vector images and maintain website graphical user interface (GUI)
