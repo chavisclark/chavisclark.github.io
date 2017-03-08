@@ -95,7 +95,7 @@ function Home() {
         </div>
         <div className={styles.resume}>
           <section className={styles.timeLine}>
-          Dec. 2016 &mdash;  Present
+          Feb. 2017 &mdash;  Present
           </section>
           <section className={styles.job}>
             Web Developer
@@ -103,7 +103,7 @@ function Home() {
               Sustainable Bolivia (Cochabamba, Bolivia)
             </span>
             <p className={styles.tasks}>
-              Rebuild multiple websites using custom PHP and JavaScript on WordPress CMS
+              Rebuild multiple websites using Bootsrap, custom PHP, and JavaScript on WordPress CMS
             </p>
           </section>
         </div>
