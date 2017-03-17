@@ -103,7 +103,7 @@ function Home() {
               Sustainable Bolivia (Cochabamba, Bolivia)
             </span>
             <p className={styles.tasks}>
-              Rebuild multiple websites using Bootsrap, custom PHP, and JavaScript on WordPress CMS
+              Rebuild multiple websites using Bootstrap, custom PHP, and JavaScript on WordPress CMS
             </p>
           </section>
         </div>
