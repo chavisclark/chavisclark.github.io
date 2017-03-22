@@ -70,8 +70,8 @@ function App({ children, routes }) {
           <A href="/"><Img src={Profile} className={styles.logo} alt="cha profile photo" /></A>
           <div className={styles.logoText}>
             <span className={styles.h}>Creative Web Developer</span>
-            <span className={styles.h}>Music Lover</span>
-            <span className={styles.h}>Hiker</span>
+            <span className={styles.h}>Lifelong Learner</span>
+            <span className={styles.h}>Digital Nomad</span>
           </div>
         </div>
         <div className={styles.contact}>
