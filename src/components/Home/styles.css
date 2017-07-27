@@ -132,3 +132,7 @@ label {
   margin: 0 2em;
   display: block;
 }
+
+.inline > *{
+  display: inline-block;
+}

@@ -8,7 +8,9 @@ import H3 from '../H3';
 import A from '../A';
 import Hat from './hat.svg';
 
+import classNames from 'classnames/bind';
 import styles from './styles.css';
+const cx = classNames.bind(styles);
 
 const propTypes = {
   children: PropTypes.element,
@@ -68,7 +70,10 @@ function Story({ children }) {
             <p>Utilize AWS for customers to efficiently eliminate upfront costs and guesswork around capacity</p>
           </li>
         </ul>
+          <div className={cx("inline", "text-center")}>
         <Button location='/'>Return to Resume/CV</Button>
+        <Button location='/github-pages'>Github Projects</Button>
+          </div>
       </div>
     );
 }

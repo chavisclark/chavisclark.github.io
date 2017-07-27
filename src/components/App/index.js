@@ -29,7 +29,9 @@ function App({ children, routes }) {
     backgroundPosition: 'center',
     backgroundSize: 'cover',
   };
-
+  function currentPath() {
+    return routes[1].path;
+  }
   function generateMapMenu() {
     let path = '';
 
@@ -102,7 +104,7 @@ function App({ children, routes }) {
           <p className={styles.body}>Solving problems works best <br />when you're standing on your head...</p>
         </section>
       </div>
-      <div className={styles.wrapper}>
+      <div className={currentPath() == 'github-pages' ? '' : styles.wrapper}>
         {children}
       </div>
       <Footer />
