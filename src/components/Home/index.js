@@ -100,7 +100,9 @@ function Home() {
           <section className={styles.job}>
             Web Developer
             <span className={styles.employer}>
-              Sustainable Bolivia (Cochabamba, Bolivia)
+              <span>Sustainable Bolivia (Cochabamba, Bolivia)</span>
+              <span>Pisatahua (Riberalta, Bolivia)</span>
+              <span>Fundacion Amazonia (Riberalta, Bolivia)</span>
             </span>
             <p className={styles.tasks}>
               Rebuild multiple websites using Bootstrap, custom PHP, and JavaScript on WordPress CMS
