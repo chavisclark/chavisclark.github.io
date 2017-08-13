@@ -61,7 +61,7 @@ function App({ children, routes }) {
   return (
     <div className={styles.container}>
       <Helmet
-        titleTemplate="%s - Chavis Clark"
+        titleTemplate="%s"
         defaultTitle="Chavis Clark"
         meta={[
           { name: 'description', content: 'About Chavis Clark ' },
@@ -69,7 +69,7 @@ function App({ children, routes }) {
       />
       <div style={divImage} className={styles.logoWrapper}>
         <div className={styles.banner}>
-          <A href="/"><Img src={Profile} className={styles.logo} alt="cha profile photo" /></A>
+          <A href="/"><Img src={Profile} className={styles.logo} alt="chae profile photo" /></A>
           <div className={styles.logoText}>
             <span className={styles.h}>Creative Web Developer</span>
             <span className={styles.h}>Lifelong Learner</span>
