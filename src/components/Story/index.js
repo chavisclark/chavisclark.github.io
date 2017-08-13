@@ -25,7 +25,7 @@ function Story({ children }) {
     return (
       <div>
         <Helmet
-          title="My Story"
+          title="Chavis Clark | My Story"
           meta={[
             { name: 'description', content: 'Chavis Clark\'s Story' },
           ]}

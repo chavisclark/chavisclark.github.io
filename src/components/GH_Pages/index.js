@@ -23,6 +23,12 @@ function GH_Pages({ children }) {
     };
     return (
     <div className={cx("container")}>
+        <Helmet
+          title="Chavis Clark | Github Pages"
+          meta={[
+            { name: 'description', content: 'Chavis Clark\'s Story' },
+          ]}
+        />
           <div className={cx("inline", "text-center")}>
              <Button location='/story'>Read My Story</Button><Button location='/'>CV/Resume</Button>
           </div>
