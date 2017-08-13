@@ -24,7 +24,7 @@ function GH_Pages({ children }) {
     return (
     <div className={cx("container")}>
         <Helmet
-          title="Chavis Clark | Github Pages"
+          title="Chavis Clark | Github Projects"
           meta={[
             { name: 'description', content: 'Chavis Clark\'s Story' },
           ]}
