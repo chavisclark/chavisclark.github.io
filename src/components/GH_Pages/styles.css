@@ -756,3 +756,22 @@ img {
 .inline > *{
   display: inline-block;
 }
+
+.disabled {
+  height: 100%;
+  width: 100%;
+  min-height: 2px;
+  background-color: rgba(0,0,0, .8);
+  position: absolute;
+}
+.disabled span {
+position: absolute;
+margin-top: 15%; 
+height: 200px;
+width: 100%;
+top: 25%;
+vertical-align: middle;
+text-align: center;
+font-size: 36px;
+color: #FFFFFF;
+}

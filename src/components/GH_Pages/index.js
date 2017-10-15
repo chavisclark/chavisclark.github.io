@@ -47,6 +47,9 @@ function GH_Pages({ children }) {
                 <p><a href="/superfan">Source code</a></p>
             </div>
             <div className={cx("col-md-6", "portfolio-item")}>
+                <div className={cx("disabled")}>
+                    <span>Currently under (re)development</span>
+                </div>
                 <a href="/travel-site">
                     <img className={cx("img-responsive")} src="https://d3brgjqtir64ox.cloudfront.net/travel_landing.png" alt=""/>
                 </a>
