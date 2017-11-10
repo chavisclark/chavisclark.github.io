@@ -78,22 +78,22 @@ function App({ children, routes }) {
         </div>
         <div className={styles.contact}>
           <figure className={styles.circle}>
-            <A href="https://www.linkedin.com/in/1chac">
+            <A target="_blank" href="https://www.linkedin.com/in/1chac">
               <i className={`${styles.icon} fa fa-linkedin fa-2x`}></i>
             </A>
           </figure>
           <figure className={styles.circle}>
-            <A href="https://twitter.com/cha_skyes">
+            <A target="_blank" href="https://twitter.com/cha_skyes">
               <i className={`${styles.icon} fa fa-twitter fa-2x`}></i>
             </A>
           </figure>
           <figure className={styles.circle}>
-            <A href="https://github.com/chavisclark">
+            <A target="_blank" href="https://github.com/chavisclark">
               <i className={`${styles.icon} fa fa-github fa-2x`}></i>
             </A>
           </figure>
           <figure className={styles.circle}>
-            <A href="mailto:chavis.clark@gmail.com">
+            <A target="_blank" href="mailto:chavis.clark@gmail.com">
               <i className={`${styles.icon} fa fa-envelope fa-2x`}></i>
             </A>
           </figure>

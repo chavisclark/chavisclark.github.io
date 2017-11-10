@@ -3,11 +3,16 @@
   justify-content: space-between;
   padding: 3em 0;
   border-top: 1px solid rgba(0, 0, 0, 0.257);
+  background-color: #778899;
 }
 
 .footerContent {
   padding: 2em;
   opacity: 0.5;
+}
+
+.footerContent p {
+  color: #FFF;
 }
 
 @media (max-width: 800px) {

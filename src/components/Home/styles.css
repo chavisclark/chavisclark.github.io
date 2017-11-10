@@ -91,6 +91,9 @@ label {
   font-size: 1.2em;
   color: #333;
   font-weight: 500;
+  background: #fbfbf1;
+  padding: 10px;
+  box-shadow: #DDD 2px 2px;
 }
 
 .job a {
@@ -119,7 +122,7 @@ label {
   font-style: italic;
   padding-left: 10px;
   color: #000;
-  list-style: disc outside none;
+  list-style: disc inside none;
   display: list-item;
 
 }
