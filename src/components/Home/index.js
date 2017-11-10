@@ -95,17 +95,15 @@ function Home() {
         </div>
         <div className={styles.resume}>
           <section className={styles.timeLine}>
-          Feb. 2017 &mdash;  Present
+          Jun. 2017 &mdash;  Present
           </section>
           <section className={styles.job}>
-            Web Developer
+            Developer
             <span className={styles.employer}>
-              <span>Sustainable Bolivia (Cochabamba, Bolivia)</span>
-              <span>Pisatahua (Riberalta, Bolivia)</span>
-              <span>Fundacion Amazonia (Riberalta, Bolivia)</span>
+              <span><a target="_blank" href="//mangrove-web.com">Mangrove Web Development (Remote)</a></span>
             </span>
             <p className={styles.tasks}>
-              Rebuild multiple websites using Bootstrap, custom PHP, and JavaScript on WordPress CMS
+              Work as a part of international team to create and maintain custom websites
             </p>
           </section>
         </div>
@@ -116,7 +114,7 @@ function Home() {
           <section className={styles.job}>
             Code Mentor
             <span className={styles.employer}>
-              Thinkful (Remote)
+              <a target="_blank" href="//thinkful.com">Thinkful (Remote)</a>
             </span>
             <p className={styles.tasks}>
               Teach and explain computer programming concepts to aspiring web developers 
@@ -125,10 +123,26 @@ function Home() {
         </div>
         <div className={styles.resume}>
           <section className={styles.timeLine}>
-          Jul. 2015 &mdash;  Present
+          Feb. 2017 &mdash;  Nov. 2017
           </section>
           <section className={styles.job}>
-            Web Application Developer
+            Web Developer
+            <span className={styles.employer}>
+              <span><a target="_blank" href="//sustainablebolivia.org">Sustainable Bolivia (Cochabamba, Bolivia)</a></span>
+              <span><a target="_blank" href="//pisatahua.org">Pisatahua (Riberalta, Bolivia)</a></span>
+              <span><a target="_blank" href="//amazonia.org.bo">Fundacion Amazonia (Riberalta, Bolivia)</a></span>
+            </span>
+            <p className={styles.tasks}>
+              Rebuild multiple websites using Bootstrap, custom PHP, and JavaScript on WordPress CMS
+            </p>
+          </section>
+        </div>
+        <div className={styles.resume}>
+          <section className={styles.timeLine}>
+          Jul. 2015 &mdash;  Jun. 2017
+          </section>
+          <section className={styles.job}>
+            Freelance Developer
             <span className={styles.employer}>
               Independent (Remote)
             </span>
@@ -168,7 +182,7 @@ function Home() {
           <section className={styles.job}>
               Technology Tutor & Student Support
             <span className={styles.employer}>
-              Moving Forward Education (San Francisco, CA)
+              <a target="_blank" href="//movingforwardeducation.com">Moving Forward Education (San Francisco, CA)</a>
             </span>
             <p className={styles.tasks}>
               Teach computer skills to youth in alternative schools, resulting in professional presentations for senior projects
@@ -188,7 +202,7 @@ function Home() {
           <section className={styles.job}>
               Webmaster
             <span className={styles.employer}>
-              West End Academy PLC (Atlanta, GA)
+              <a target="_blank" href="//atlantapublicschools.us">Atlanta Public School System | Communities in School | West End Academy PLC (Atlanta, GA)</a>
             </span>
             <p className={styles.tasks}>
               Establish standard processes including workflow, approvals, and publishing
@@ -214,7 +228,7 @@ function Home() {
           <section className={styles.job}>
               Media and Web Developer
             <span className={styles.employer}>
-              Playpro Media (Kennesaw, GA)
+              <a target="_blank" href="//playpromedia.com">Playpro Media (Kennesaw, GA)</a>
             </span>
             <p className={styles.tasks}>
               Maintain WordPress CMS and develop new custom JavaScript elements for front-end
@@ -263,7 +277,7 @@ function Home() {
           <section className={styles.job}>
               Media Intern
             <span className={styles.employer}>
-              Playpro Media (Kennesaw, GA)
+              <a target="_blank" href="//playpromedia.com">Playpro Media (Kennesaw, GA)</a>
             </span>
             <p className={styles.tasks}>
               Recruit music artists to sign-up to participate in artist showcase
@@ -280,7 +294,7 @@ function Home() {
           <section className={styles.job}>
             Assistant Webmaster
             <span className={styles.employer}>
-              Kennesaw State University (Kennesaw, GA)
+              <a target="_blank" href="//hss.kennesaw.edu/.com">CHSS | Kennesaw State University (Kennesaw, GA)</a>
             </span>
             <p className={styles.tasks}>
               Provide customer service to all levels of users and encourage timeliness and accuracy of Web page information and resolution of problems
@@ -321,9 +335,9 @@ function Home() {
             Jul. 2014 &mdash;  Present
           </section>
           <section className={styles.job}>
-              Audio Engineer (Part-time)
+              Freelance Audio Engineer (Part-time)
             <span className={styles.employer}>
-              Freelance
+              Independent (Remote)
             </span>
             <p className={styles.tasks}>
               Work with independent music artists and producers on the technical aspects of music production

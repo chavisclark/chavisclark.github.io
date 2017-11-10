@@ -23,7 +23,7 @@ function Story({ children }) {
       backgroundRepeat: 'no-repeat'
     };
     return (
-      <div>
+      <div >
         <Helmet
           title="Chavis Clark | My Story"
           meta={[
@@ -40,13 +40,15 @@ function Story({ children }) {
             Over the years I've held many roles within different companies and organizations. Whether I'm working with a major company or an incubated startup, I pride myself on getting the job done, and doing it well. My professional career in the digital realm started in the entertainment industry as a Media Producer, and because of my web skills, I quickly transitioned into additional roles of Webmaster and Web Developer.
           </p>
         </div>
+        <div className={styles.intro}>
         <p>
           Even while producing videos for companies like Kia Motors and working with numerous music artists, I still made time to develop web components for different companies and small businesses.
         </p>
         <p>
         As a developer I value growth, teamwork, and having fun! My goals are to stay on top of cutting-edge web technologies, teach less experienced developers best-practices, and become a part of a development team that truly fits. I've found that my talents are best utilized in an environment where I can become an active contributor and continue my professional growth.
         </p>
-        <b>Throughout my professional career I've been able to:</b>
+        </div>
+        <p className={styles.headline}><b>Throughout my professional career I've been able to:</b></p>
         <ul className={styles.list}>
           <li className={styles.listItem}>
             <p>Develop an entire social web application for a local non-profit startup called Media in the Metro, which reached over 100 inner-city youth</p>
@@ -64,7 +66,7 @@ function Story({ children }) {
             <p>Partner with <A href="https://ignition-inc.com">Ignition-Inc</A>, to generate targeted marketing content for Kia Motors during the Vans Warped Tour</p>
           </li>
           <li className={styles.listItem}>
-            <p>Develop a client management web application for my music-related freelance work, viewable at <A href="http://chaclark.com">ChaClark.com</A></p>
+            <p>Develop a client management web application for my music-related freelance work</p>
           </li>
           <li className={styles.listItem}>
             <p>Utilize AWS for customers to efficiently eliminate upfront costs and guesswork around capacity</p>

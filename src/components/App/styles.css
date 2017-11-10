@@ -87,7 +87,7 @@ body.fontLoaded {
 }
 
 .textSection {
-  margin: 3em auto;
+  margin: 0 auto;
 }
 
 .textSection:first-child {
