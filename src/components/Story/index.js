@@ -23,13 +23,17 @@ function Story({ children }) {
       backgroundRepeat: 'no-repeat'
     };
     return (
-      <div >
+      <div>
         <Helmet
           title="Chavis Clark | My Story"
           meta={[
             { name: 'description', content: 'Chavis Clark\'s Story' },
           ]}
         />
+          <div className={cx("inline", "text-center")}>
+        <Button location='/'>Return to Resume/CV</Button>
+        <Button location='/github-pages'>Github Projects</Button>
+          </div>
         <H1>My Story</H1>
         <H3>I was introduced to coding at age 12... Today, I still give 110% no matter which hat I'm wearing.</H3>
         <div className={styles.intro}>
@@ -72,10 +76,6 @@ function Story({ children }) {
             <p>Utilize AWS for customers to efficiently eliminate upfront costs and guesswork around capacity</p>
           </li>
         </ul>
-          <div className={cx("inline", "text-center")}>
-        <Button location='/'>Return to Resume/CV</Button>
-        <Button location='/github-pages'>Github Projects</Button>
-          </div>
       </div>
     );
 }

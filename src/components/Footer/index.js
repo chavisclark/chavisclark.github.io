@@ -12,7 +12,7 @@ function Footer() {
         <p>Made with 💚  from my basement</p>
       </section>
       <section className={styles.footerContent}>
-        <p>Deployed on DigitalOcean</p>
+        <p>Current Location: France 🇫🇷</p>
       </section>
     </footer>
   );
