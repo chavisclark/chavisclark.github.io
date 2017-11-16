@@ -103,7 +103,7 @@ function Home() {
               <span><a target="_blank" href="//mangrove-web.com">Mangrove Web Development (Remote)</a></span>
             </span>
             <p className={styles.tasks}>
-              Work as a part of international team to create and maintain custom websites
+              Work as part of an international team of designers, developers, and project managers to create and maintain custom websites
             </p>
           </section>
         </div>
