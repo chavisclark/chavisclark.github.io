@@ -9,7 +9,7 @@ function Footer() {
         <p>Built with React</p>
       </section>
       <section className={styles.footerContent}>
-        <p>Made with 💚  from my basement</p>
+        <p>Made with 💚 </p>
       </section>
       <section className={styles.footerContent}>
         <p>Current Location: France 🇫🇷</p>
