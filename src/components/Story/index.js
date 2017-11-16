@@ -34,7 +34,9 @@ function Story({ children }) {
         <Button location='/'>Return to Resume/CV</Button>
         <Button location='/github-pages'>Github Projects</Button>
           </div>
-        <H1>My Story</H1>
+        <div className={cx("text-center", "space-around")}>
+          <H1>My Story</H1>
+        </div>
         <H3>I was introduced to coding at age 12... Today, I still give 110% no matter which hat I'm wearing.</H3>
         <div className={styles.intro}>
           <div className={styles.hat} style={divImage}>
