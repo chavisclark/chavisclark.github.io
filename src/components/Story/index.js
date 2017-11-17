@@ -51,7 +51,7 @@ function Story({ children }) {
           Even while producing videos for companies like Kia Motors and working with numerous music artists, I still made time to develop web components for different companies and small businesses.
         </p>
         <p>
-        As a developer I value growth, teamwork, and having fun! My goals are to stay on top of cutting-edge web technologies, teach less experienced developers best-practices, and become a part of a development team that truly fits. I've found that my talents are best utilized in an environment where I can become an active contributor and continue my professional growth.
+        <strong>As a developer I value growth, teamwork, and having fun!</strong> My goals are to stay on top of cutting-edge web technologies, teach less experienced developers best-practices, and become a part of a development team that truly fits. I've found that my talents are best utilized in an environment where I can become an active contributor and continue my professional growth.
         </p>
         </div>
         <p className={styles.headline}><b>Throughout my professional career I've been able to:</b></p>
