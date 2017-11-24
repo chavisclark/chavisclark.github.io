@@ -89,6 +89,9 @@ function Home() {
           <li className={styles.skill}>
           Adobe Creative Suite
           </li>
+          <li className={styles.skill}>
+          Multilingual
+          </li>
         </div>
         <div className={`${styles.textSection}`}>
         RELEVANT EXPERIENCE
@@ -119,6 +122,12 @@ function Home() {
             <p className={styles.tasks}>
               Teach and explain computer programming concepts to aspiring web developers 
             </p>
+            <p className={styles.tasks}>
+              Lead paired-programming sessions 
+            </p>
+            <p className={styles.tasks}>
+              Ensure student-readiness for mock interviews
+            </p>
           </section>
         </div>
         <div className={styles.resume}>
@@ -133,7 +142,13 @@ function Home() {
               <span><a target="_blank" href="//amazonia.org.bo">Fundacion Amazonia (Riberalta, Bolivia)</a></span>
             </span>
             <p className={styles.tasks}>
-              Rebuild multiple websites using Bootstrap, custom PHP, and JavaScript on WordPress CMS
+              Redesign and rebuild Suatainable Bolivia multilingual WordPress website.
+            </p>
+            <p className={styles.tasks}>
+              Create new pages, setup multilingual capabilities, and build new image gallery (backend and UI) for Pisatahua WordPress website.
+            </p>
+            <p className={styles.tasks}>
+              Develop homepage from mockup and setup multilingual capabilities for Fundacion Amazonia WordPress website.
             </p>
           </section>
         </div>
