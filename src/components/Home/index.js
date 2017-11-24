@@ -14,9 +14,8 @@ function Home() {
           ]}
         />
         <div className={`${styles.centered} ${styles.intro}`}>
-          I enjoy creating solutions to problems using creativity and objective reasoning. What I find most rewarding is designing customer-focused applications that aim to increase user-engagement.
-          <p>A good bit of my professional career has been spent creating many different types of products from music to web applications. More recently, I've been focusing on creating beautiful web applications using cutting edge technologies. Check out my story for a closer look at my accomplishments.
-          </p>
+        <h3>I develop performance-oriented websites and web applications for the web.</h3>
+        When I'm not practicing my Spanish or mentoring less-experienced developers, I'm exploring new places, cultures, and music!
           <div className={styles.inline}><Button location='/story'>Read My Story</Button><Button location='/github-pages'>Github Projects</Button></div>
         </div>
         <div className={`${styles.textSection}`}>

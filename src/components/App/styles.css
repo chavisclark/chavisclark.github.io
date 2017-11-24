@@ -46,7 +46,11 @@ body.fontLoaded {
     min-height: 200px;
   }
 }
-
+.highlight {
+  background-color: rgba(65,173,221, .3);
+  border-radius: 7px;
+  padding-right: 20px
+}
 .logo {
   border-radius: 50%;
   height: 150px;
