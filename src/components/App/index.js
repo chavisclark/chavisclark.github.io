@@ -8,6 +8,7 @@ import Profile from './cha-profile.jpg';
 import Banner from './banner.jpg';
 import BannerUpDown from './bannerUpDown.png';
 import A from '../A';
+import Button from '../Button';
 
 import styles from './styles.css';
 
@@ -104,6 +105,12 @@ function App({ children, routes }) {
           <p className={styles.body}>Solving problems works best <br />when you're standing on your head...</p>
         </section>
       </div>
+      <nav className={styles.navBar}>
+        <Button className={currentPath() == '' ? 'active' : ''} location='/'>Home</Button>
+        <Button className={currentPath() == 'cv' ? 'active' : ''} location='/cv'>Resume/CV</Button>
+        <Button className={currentPath() == 'story' ? 'active' : ''} location='/story'>Read My Story</Button>
+        <Button className={currentPath() == 'github-pages' ? 'active' : ''} location='/github-pages'>Github Projects</Button>
+      </nav>
       <div className={currentPath() == 'github-pages' ? '' : styles.wrapper}>
         {children}
       </div>

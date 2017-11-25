@@ -63,7 +63,18 @@ body.fontLoaded {
   align-items: center;
   padding-left: 10px;
 }
-
+.navBar {
+  display: flex;
+  flex-flow: row;
+  border-bottom: #CCC 1px solid;
+  background-color: rgba(65,173,221, .1);
+  justify-content: center;
+}
+@media(max-width: 680px) {
+  .navBar {
+      flex-flow: column;
+  }
+}
 .h {
   display: block;
   color: #FFF;

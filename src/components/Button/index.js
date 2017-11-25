@@ -11,17 +11,17 @@ import { Link } from 'react-router';
 import styles from './styles.css';
 
 function Button(props) {
-  const className = props.className ? props.className : styles.button;
+  const activeClassName = props.className == 'active' ? styles.active : '';
 
   // Render an anchor tag
   let button = (
-    <a className={className} href={props.href} onClick={props.onClick}>{props.children}</a>
+    <a className={`${styles.button} ${activeClassName}`} href={props.href} onClick={props.onClick}>{props.children}</a>
   );
 
   // If the Button has a handleRoute prop, we want to render a button
   if (props.location) {
     button = (
-      <Link className={className} to={props.location}>{props.children}</Link>
+      <Link className={`${styles.button} ${activeClassName}`} to={props.location}>{props.children}</Link>
     );
   }
 

@@ -13,13 +13,6 @@ function CV() {
             { name: 'description', content: 'Chavis Clark is a self-taught Web Application Developer who works creatively and passionately. View Chavis Clark\'s comprehensive work history and GitHub projects here.' },
           ]}
         />
-        <div className={`${styles.centered} ${styles.intro}`}>
-          <div className={styles.inline}>
-          <Button location='/'>Home</Button>
-          <Button location='/story'>Read My Story</Button>
-          <Button location='/github-pages'>Github Projects</Button>
-          </div>
-        </div>
         <div className={`${styles.textSection}`}>
         SKILLS
         </div>

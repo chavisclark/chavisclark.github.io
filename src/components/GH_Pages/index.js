@@ -29,11 +29,6 @@ function GH_Pages({ children }) {
             { name: 'description', content: 'Chavis Clark\'s Story' },
           ]}
         />
-          <div className={cx("inline", "text-center")}>
-             <Button location='/cv'>Home</Button>
-             <Button location='/story'>Read My Story</Button>
-             <Button location='/cv'>CV/Resume</Button>
-          </div>
         <div className={cx("text-center", "space-around")}>
           <H1>GitHub Projects</H1>
         </div>
