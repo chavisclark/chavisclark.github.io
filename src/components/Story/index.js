@@ -31,7 +31,8 @@ function Story({ children }) {
           ]}
         />
           <div className={cx("inline", "text-center")}>
-        <Button location='/'>Return to Resume/CV</Button>
+        <Button location='/'>Home</Button>
+        <Button location='/cv'>Resume/CV</Button>
         <Button location='/github-pages'>Github Projects</Button>
           </div>
         <div className={cx("text-center", "space-around")}>
