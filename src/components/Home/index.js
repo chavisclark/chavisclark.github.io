@@ -6,7 +6,7 @@ import styles from './styles.css';
 
 function Home() {
    return (
-      <article>
+      <article className={styles.padding}>
         <Helmet
           title="Chavis Clark | Digital Nomad & Fullstack Web Developer"
           meta={[
