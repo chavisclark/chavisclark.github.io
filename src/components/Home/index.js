@@ -8,9 +8,9 @@ function Home() {
    return (
       <article>
         <Helmet
-          title="Chavis Clark | Digital Nomad & Remote Web Developer"
+          title="Chavis Clark | Digital Nomad & Fullstack Web Developer"
           meta={[
-            { name: 'description', content: 'Chavis Clark is a self-taught Web Application Developer who works creatively and passionately. View Chavis Clark\'s comprehensive work history and GitHub projects here.' },
+            { name: 'description', content: 'Chavis Clark is a self-taught Web Application Developer who works remotely and passionately. View Chavis Clark\'s comprehensive work history and GitHub projects here.' },
           ]}
         />
         <div className={`${styles.centered} ${styles.intro}`}>

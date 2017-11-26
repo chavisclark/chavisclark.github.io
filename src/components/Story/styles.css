@@ -1,6 +1,9 @@
 .intro p{
   line-height: 2em;
 }
+.paddingTop {
+  padding-top: 1em;
+}
 .headline {
   padding-top: 20px;
 }

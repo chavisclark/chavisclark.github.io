@@ -22,7 +22,7 @@ function GH_Pages({ children }) {
       backgroundRepeat: 'no-repeat'
     };
     return (
-    <div className={cx("container")}>
+    <div className={cx("container", "paddingTop")}>
         <Helmet
           title="Chavis Clark | Github Projects"
           meta={[
