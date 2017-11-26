@@ -72,7 +72,7 @@ function App({ children, routes }) {
         <div className={styles.banner}>
           <A href="/"><Img src={Profile} className={styles.logo} alt="chae profile photo" /></A>
           <div className={`${styles.logoText} ${styles.highlight}`}>
-            <span className={styles.h}>Nomadic Remote Web Developer</span>
+            <span className={styles.h}>Remote Fullstack Web Developer</span>
             <span className={styles.h}>Digital Creator of Things</span>
             <span className={styles.h}>Lifelong Learner</span>
           </div>
