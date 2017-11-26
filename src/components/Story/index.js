@@ -44,7 +44,7 @@ function Story({ children }) {
         After years of working traditionally, I decided to branch out and try living and working remotely. I've worked as a digital nomad and lived as a global citizen ever since.
         </p>
         <p>
-        <strong>As a developer I value growth, teamwork, and having fun!</strong> My goals are to stay on top of cutting-edge web technologies, teach less experienced developers best-practices, and become a part of a development team that truly fits. I've found that my talents are best utilized in an environment where I can become an active contributor and continue my professional growth.
+        <strong>As a developer I value growth, teamwork, and having fun!</strong> My goals are to stay on top of cutting-edge web technologies, teach less experienced developers best-practices, and contribute to development teams that truly fit. I've found that my talents are best utilized in an environment where I can become an active contributor and continue my professional growth.
         </p>
         </div>
         <div className={styles.paddingTop}></div>
