@@ -29,9 +29,6 @@ function GH_Pages({ children }) {
             { name: 'description', content: 'Chavis Clark\'s Story' },
           ]}
         />
-        <div className={cx("text-center", "space-around")}>
-          <H1>GitHub Projects</H1>
-        </div>
         <div className={cx("intro")}>
             <div className={cx("col-md-6", "portfolio-item")}>
                 <a href="/superfan/">
