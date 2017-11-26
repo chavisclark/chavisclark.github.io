@@ -8,9 +8,9 @@ function CV() {
    return (
       <article>
         <Helmet
-          title="Chavis Clark | Digital Nomad"
+          title="Chavis Clark | CV/Resume"
           meta={[
-            { name: 'description', content: 'Chavis Clark is a self-taught Web Application Developer who works creatively and passionately. View Chavis Clark\'s comprehensive work history and GitHub projects here.' },
+            { name: 'description', content: 'Chavis Clark\'s CV/Resume and digital work history' },
           ]}
         />
         <div className={`${styles.textSection}`}>
