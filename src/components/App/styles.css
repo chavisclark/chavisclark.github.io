@@ -65,16 +65,28 @@ body.fontLoaded {
   align-items: center;
   padding-left: 10px;
 }
-.navBar {
+.navBar, .mobileTrigger {
   display: flex;
   flex-flow: row;
   border-bottom: #CCC 1px solid;
   background-color: rgba(65,173,221, .1);
   justify-content: center;
 }
+.mobileTrigger {
+  display: none;
+  -webkit-margin-start : 0;
+/*  padding-right: 15px;*/
+cursor: pointer;
+}
 @media(max-width: 680px) {
   .navBar {
+      display: none;
       flex-flow: column;
+  }
+  .mobileTrigger {
+    display: flex;
+    align-items: center;
+    height: 50px;
   }
 }
 .h {
@@ -143,11 +155,10 @@ body.fontLoaded {
   margin: 30%;
   color: #FFF;
 }
-
 @media (max-width: 680px) {
   .contact {
     max-width: 400px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: auto;
     padding: 10px;
