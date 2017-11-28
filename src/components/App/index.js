@@ -26,7 +26,20 @@ class App extends Component {
       mobileOpen: false
     }
   }
-  handleOnClick() {
+  componentDidMount() {
+    const nav = document.getElementsByTagName('nav')[0];
+    const trigger = document.getElementsByTagName('dd')[0];
+    let appWindow = window.innerWidth
+    || document.documentElement.clientWidth
+    || document.body.clientWidth;
+
+    window.addEventListener('resize', function(that) {
+      if (appWindow >= 680) {
+        //do something
+      }      
+    }) 
+  }
+  handleOnClick(resize) {
     const nav = document.getElementsByTagName('nav')[0];
     const trigger = document.getElementsByTagName('dd')[0];
     if (!this.state.mobileOpen) {
@@ -38,11 +51,9 @@ class App extends Component {
       nav.style.display = 'none';
       trigger.innerHTML = '<i class="fa fa-2x fa-bars"></i>';
     }
-    
-    
   }
   currentPath() {
-    return routes[1].path;
+    return this.props.routes[1].path;
   }
   generateMapMenu() {
     let path = '';
@@ -56,7 +67,7 @@ class App extends Component {
     }
 
     return (
-      routes.filter(route => route.mapMenuTitle)
+      this.props.routes.filter(route => route.mapMenuTitle)
         .map((route, index, array) => (
           <span key={index}>
             <Interactive
@@ -70,6 +81,7 @@ class App extends Component {
     );
   }
   render() {
+    const {pathname} = this.props.location;
     const divImage = {
       backgroundImage: `url('${Banner}')`,
       backgroundPosition: 'center',
@@ -128,12 +140,12 @@ class App extends Component {
         </div>
         <dd onClick={this.handleOnClick.bind(this)} className={styles.mobileTrigger}><i className="fa fa-bars fa-2x"></i></dd>
         <nav className={styles.navBar}>
-          <Button className={this.currentPath.bind(this) == '' ? 'active' : ''} location='/'>Home</Button>
-          <Button className={this.currentPath.bind(this) == 'cv' ? 'active' : ''} location='/cv'>Resume/CV</Button>
-          <Button className={this.currentPath.bind(this) == 'story' ? 'active' : ''} location='/story'>Read My Story</Button>
-          <Button className={this.currentPath.bind(this) == 'github-pages' ? 'active' : ''} location='/github-pages'>Github Projects</Button>
+          <Button className={pathname == '/' ? 'active' : ''} location='/'>Home</Button>
+          <Button className={pathname == '/cv' ? 'active' : ''} location='/cv'>Resume/CV</Button>
+          <Button className={pathname == '/story' ? 'active' : ''} location='/story'>Read My Story</Button>
+          <Button className={pathname == '/github-pages' ? 'active' : ''} location='/github-pages'>Github Projects</Button>
         </nav>
-        <div className={this.currentPath.bind(this) == 'github-pages' ? '' : styles.wrapper}>
+        <div className={pathname == '/github-pages' ? '' : styles.wrapper}>
           {this.props.children}
         </div>
         <Footer />
