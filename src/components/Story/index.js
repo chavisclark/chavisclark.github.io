@@ -41,7 +41,7 @@ function Story({ children }) {
         </div>
         <div className={styles.intro}>
         <p>
-        After years of working traditionally, I decided to branch out and try living and working remotely. I've worked as a digital nomad and lived as a global citizen ever since.
+        After years of working the traditional way, I decided to branch out and try living and working remotely. I've worked as a digital nomad and lived as a global citizen ever since.
         </p>
         <p>
         <strong>As a developer I value growth, teamwork, and having fun!</strong> My goals are to stay on top of cutting-edge web technologies, teach less experienced developers best-practices, and contribute to development teams that truly fit. I've found that my talents are best utilized in an environment where I can become an active contributor and continue my professional growth.
