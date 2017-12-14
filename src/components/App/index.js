@@ -97,9 +97,6 @@ class App extends Component {
         <Helmet
           titleTemplate="%s"
           defaultTitle="Chavis Clark"
-          meta={[
-            { name: 'description', content: 'About Chavis Clark ' },
-          ]}
         />
         <div style={divImage} className={styles.logoWrapper}>
           <div className={styles.banner}>
