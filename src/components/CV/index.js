@@ -97,7 +97,7 @@ function CV() {
           <section className={styles.job}>
             Developer
             <span className={styles.employer}>
-              <span><a target="_blank" href="//mangrove-web.com">Mangrove Web Development (Remote)</a></span>
+              <span><a target="_blank" href="//mangrove-web.com/work">Mangrove Web Development (Remote)</a></span>
             </span>
             <p className={styles.tasks}>
               Work as part of an international team of designers, developers, and project managers to create and maintain custom websites
@@ -111,7 +111,7 @@ function CV() {
           <section className={styles.job}>
             Code Mentor
             <span className={styles.employer}>
-              <a target="_blank" href="//thinkful.com">Thinkful (Remote)</a>
+              <a target="_blank" href="//thinkful.com/mentors">Thinkful (Remote)</a>
             </span>
             <p className={styles.tasks}>
               Teach and explain computer programming concepts to aspiring web developers 
