@@ -14,7 +14,7 @@ function Home() {
           ]}
         />
         <div className={`${styles.centered} ${styles.intro}`}>
-        <h3>I develop performance-oriented websites and web applications for the web.</h3>
+        <h3>I develop performance-oriented websites and web applications.</h3>
         When I'm not practicing Spanish or mentoring less-experienced developers, I'm exploring new places, cultures, and music!
         </div>
       </article>
