@@ -341,7 +341,7 @@ function CV() {
         </div>
         <div className={styles.resume}>
           <section className={styles.timeLine}>
-            Jul. 2014 &mdash;  Present
+            Jul. 2014 &mdash; May. 2017
           </section>
           <section className={styles.job}>
               Freelance Audio Engineer (Part-time)
